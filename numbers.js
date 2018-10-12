@@ -135,7 +135,6 @@ function annualFetchCounter(){
 
 function allNumbers(){
   document.querySelector("#all-numbers-button").addEventListener('click', function(){
-    randomArray = []
 
     for(var i = 1; i < 101; i++){
       let randomNum = Math.floor(Math.random() * 5000)
@@ -148,6 +147,5 @@ function allNumbers(){
           document.querySelector("#all-the-numbers").appendChild(liElement)
         })
       }
-
   })
 }
